@@ -1,0 +1,13 @@
+{
+  "name": "foundry-frame-remodeling-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FireWorks ready-built residential remodeling website template.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check-site.mjs",
+    "test": "npm run check && npm run build"
+  },
+  "engines": { "node": ">=20" }
+}
