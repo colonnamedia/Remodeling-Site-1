@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# Demo content is intentionally excluded from search until a real client verifies all business data.
