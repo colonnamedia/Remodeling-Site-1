@@ -92,7 +92,17 @@ Hosting, domains, integrations, third-party fees, and add-ons are not discounted
 - Browser QA: desktop and mobile navigation, every route, hero crops, project images, form validation, photo selection, provider gate, and no horizontal overflow.
 - Deployment QA: production routes, asset responses, security headers, clean URLs, storefront demo URL/image, Featured/Available status, and complete checkout pricing.
 
-Record final commit SHAs and deployment verification below after publication.
+## Publication record — 2026-10-13
+
+- Template source commits: `ac24f734462f4d146e08095a4292840b427f9dba` (site source) and `e735b65b97f3cdb9946b7ee2cbbaa179c77015b6` (original optimized imagery).
+- FireWorks storefront commit: `192dc5db97017b94694e9372666f71611ff1837a`.
+- Vercel production URL verified: `https://remodeling-site-1.vercel.app/`.
+- All seven production routes returned the expected unique title and single H1; every referenced image reported a nonzero natural width; desktop pages reported no horizontal overflow.
+- The live form preselected Kitchen from the query string, exposed ten initially invalid controls, updated the in-home consultation provider gate, and completed with the explicit local-only no-send/no-upload/no-store/no-book/no-payment status.
+- FireWorks Website Collection verified the 1200×630 storefront image, Residential Remodeling category, Featured and Available badges, $2,499 build, $499/year or $59.99/month Standard hosting, $20/year domain, live demo, feature list, and separate add-on copy.
+- FireWorks Home verified the same Featured and Available card, image source, category, and pricing.
+- Store Checkout verified $2,499 one-time, annual hosting selected at $499/year, $59.99/month alternative, $20/year domain, $3,018 due today before optional add-ons, and separately priced catalog add-ons.
+- Responsive behavior is implemented at 900px and 620px with mobile navigation, one-column form/layout changes, hero subject crop, and stacked CTA/footer rules. The available cloud browser did not expose a narrow viewport control, so a direct 390px production screenshot remains the only visual QA item to repeat during the next customer customization.
 
 ## Future design variants
 
